@@ -13,7 +13,7 @@ class PhotoDetailsActivity : BaseActivity() {
         val photo = intent.getSerializableExtra(PHOTO_TRANSFER)
         photo_author.text = photo.author
         photo_tags.text = photo.tags
-        photo_title.text = photo.title
+        photo_title.text =
 
 
     }
